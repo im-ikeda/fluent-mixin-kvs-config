@@ -6,10 +6,10 @@ Fluent::Mixin::KvsConfig provides '$KVS{kvs-key}' placeholder to fluentd plug-in
 
 In KVS
 
-| key | value |
-+-----+-------+
-| KVSCONF_KEY1 | VALUE_KEY1 |
-| KVSCONF_KEY2 | VALUE_KEY2 |
+    |     key      |    value   |
+    +--------------+------------+
+    | KVSCONF_KEY1 | VALUE_KEY1 |
+    | KVSCONF_KEY2 | VALUE_KEY2 |
 
 In plugin (both of input and output), just include mixin.
 
@@ -66,10 +66,10 @@ Fluent::Mixin::KvsConfigは，このMix-inをインクルードしたFluentdプ�
 
 KVS内のデータ
 
-| key | value |
-+-----+-------+
-| KVSCONF_KEY1 | VALUE_KEY1 |
-| KVSCONF_KEY2 | VALUE_KEY2 |
+    |     key      |    value   |
+    +--------------+------------+
+    | KVSCONF_KEY1 | VALUE_KEY1 |
+    | KVSCONF_KEY2 | VALUE_KEY2 |
 
 プラグイン内(Input・Output共に)で，このようにインクルードしてください．
 
